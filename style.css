@@ -1,3 +1,7 @@
+.body{
+font-family: Open Sans;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -16,11 +20,20 @@
 
 .name {
   font-family: Open Sans;
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 30px;
+  font-weight: 700;
   line-height: 24px;
-  text-align: left;
   color: #343434;
+  margin: 0;
+}
+
+.title{
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #343434;
+
 }
 
 .profile {
@@ -29,4 +42,49 @@
   height: 250px;
   object-fit: cover;
   background-size: cover;
+}
+
+.intro {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 150px;
+}
+
+.btn {
+  border-radius: 25px;
+  padding: 12px 15px;
+  border: 2px solid #110f0f;
+}
+
+.btn-primary {
+  background: #110f0f;
+  color: #fff;
+}
+
+.btn-outline {
+  background: #fff;
+  color: #110f0f;
+}
+
+.info{
+text-align: center;
+
+}
+
+.social-icons{
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.social-icons i {
+    font-size: 20px;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
 }
