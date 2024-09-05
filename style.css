@@ -1,24 +1,24 @@
-*
-{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'poppins', sans-serif;
+.header{
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 100px 0 100px;
 }
-body{
-    columns: #ededed;
-}
-.header 
-{
-    position: fixed;
-    top : 0;
-    left: 0;
-    width: 100%;
-    padding: 20px 10px;
-    background: transparent;
+
+.navbar{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 100;
+    gap: 20px;
+}
+
+.nav-item{
+    text-decoration: none;
+    color: black;
+}
+
+.name{
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
 
 }
