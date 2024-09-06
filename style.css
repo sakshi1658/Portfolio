@@ -1,5 +1,5 @@
 .body{
-font-family: Open Sans;
+font-family: "Popins";
 }
 
 .header {
@@ -16,6 +16,15 @@ font-family: Open Sans;
 .nav-item {
   text-decoration: none;
   color: black;
+  text-decoration-color: #fff;
+}
+
+.nav-item:hover{
+    color: grey;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: rgb(181, 181, 181);
+
 }
 
 .name {
