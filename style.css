@@ -1,5 +1,5 @@
-.body{
-font-family: "Popins";
+.body {
+  font-family: "Popins", "Open Sana";
 }
 
 .header {
@@ -19,12 +19,11 @@ font-family: "Popins";
   text-decoration-color: #fff;
 }
 
-.nav-item:hover{
-    color: grey;
-    text-decoration: underline;
-    text-underline-offset: 1rem;
-    text-decoration-color: rgb(181, 181, 181);
-
+.nav-item:hover {
+  color: grey;
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+  text-decoration-color: rgb(181, 181, 181);
 }
 
 .name {
@@ -36,13 +35,12 @@ font-family: "Popins";
   margin: 0;
 }
 
-.title{
-    font-family: Open Sans;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 24px;
-    color: #343434;
-
+.title {
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #343434;
 }
 
 .profile {
@@ -76,24 +74,43 @@ font-family: "Popins";
   color: #110f0f;
 }
 
-.info{
-text-align: center;
-
+.info {
+  text-align: center;
 }
 
-.social-icons{
-    margin-top: 15px;
-    display: flex;
-    gap: 10px;
-    justify-content: center;
+.social-icons {
+  margin-top: 15px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
 }
 
 .social-icons i {
-    font-size: 20px;
+  font-size: 20px;
 }
 
-.button-container{
-    display: flex;
-    justify-content: center;
-    gap: 15px;
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+/* HAMBURGER MENU */
+
+#hamburger-nav {
+  display: none;
+}
+
+.hamburger-menu{
+  position: relative;
+  display: inline-block;
+}
+
+.hamburger-icon{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 24px;
+  width: 30px;
+  cursor: pointer;
 }
