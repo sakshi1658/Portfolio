@@ -178,10 +178,9 @@ section {
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
   height: 330px;
   width: 330px;
-  margin: auto 0;
 }
 
-.section__pic-container img {
+.profile-img {
   height: 100%;
   width: 100%;
   object-fit: cover; 
@@ -321,7 +320,9 @@ section {
 }
 
 .section__pic-container {
-
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
 }
 
 /* EXPERIENCE SECTION */
