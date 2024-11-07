@@ -26,40 +26,31 @@
   <title>My Portfolio</title>
   <body>
     <nav id="desktop-nav">
-      <header class="header">
-        <div class="logo">Sakshi Sharma</div>
-        <div>
-          <ul class="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
+      <div class="logo">Sakshi Sharma</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Sakshi Sharma</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
-      </header>
-
-      <main>
-        <section class="intro">
-          <picture>
-            <img src="assets/mine.jpg" alt="image" class="profile" />
-          </picture>
-
-          <div class="info">
-            <p class="hello">Hello, I'm</p>
-            <h2 class="name">Sakshi Sharma</h2>
-            <p class="designation">Web Developer</p>
-            <div class="button-container">
-              <button class="btn btn-outline">Download CV</button>
-              <button class="btn btn-primary">Contact Info</button>
-            </div>
-            <div class="social-icons">
-              <i class="fa fa-linkedin"></i>
-              <i class="fa fa-github"></i>
-            </div>
-          </div>
-        </section>
-      </main>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
     </nav>
     <script src="script.js"></script>
   </body>
