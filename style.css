@@ -171,8 +171,8 @@ section {
 
 .section__pic-container.small-pic {
   display: flex;
-  border-radius: 50%; 
-  overflow: hidden; 
+  border-radius: 50%;
+  overflow: hidden;
   align-items: center;
   justify-content: center;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
@@ -183,9 +183,8 @@ section {
 .profile-img {
   height: 100%;
   width: 100%;
-  object-fit: cover; 
+  object-fit: cover;
 }
-
 
 .section__text {
   align-self: center;
@@ -440,4 +439,20 @@ footer {
 
 footer p {
   text-align: center;
+}
+
+/* Fading animation for sections */
+.fade-in {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeIn 1s forwards;
+}
+
+/* Hover effect for buttons */
+.btn {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
