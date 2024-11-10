@@ -212,10 +212,12 @@ section {
   width: 330px;
 }
 
-.profile-img {
-  height: 100%;
-  width: 100%;
+.profile {
+  border-radius: 100%;
+  width: 250px;
+  height: 250px;
   object-fit: cover;
+  background-size: cover;
 }
 
 .section__text {
