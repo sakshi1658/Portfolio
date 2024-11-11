@@ -380,7 +380,6 @@ section {
 }
 
 /* EXPERIENCE SECTION */
-
 #experience {
   position: relative;
 }
@@ -390,12 +389,14 @@ section {
   font-weight: 600;
   font-size: 1.75rem;
   margin-bottom: 2rem;
+  text-align: center;
 }
 
 .experience-details-container {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  gap: 2rem;
 }
 
 .article-container {
@@ -416,6 +417,45 @@ article {
 
 article .icon {
   cursor: default;
+}
+
+.work {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  text-align: justify;
+
+}
+
+.work-container {
+  border-left: 4px solid #ffdbc9;
+  padding-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+.work-container h3 {
+  font-weight: bold;
+  color: #333;
+}
+
+.position-duration {
+  font-size: 0.9rem;
+  color: #555;
+  margin: 0.2rem 0;
+}
+
+ul {
+  list-style: disc;
+  padding-left: 1.2rem;
+  margin: 0.5rem 0;
+  color: #444;
+}
+
+.technologies-used {
+  font-size: 0.9rem;
+  color: #888;
+  font-style: italic;
+  margin-top: 0.5rem;
 }
 
 
