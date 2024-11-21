@@ -794,3 +794,15 @@ textarea:focus {
 button:hover {
   background-color: #0056b3;
 }
+
+/* Animations */
+@keyframes formSlideIn {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
