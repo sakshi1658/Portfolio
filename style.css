@@ -232,11 +232,39 @@ section {
 
 .section__text__p1 {
   text-align: center;
+  animation: fadeInUp 1s ease-in-out;
+}
+
+.title {
+  font-size: 2.5rem;
+  animation: fadeInUp 1.2s ease-in-out;
 }
 
 .section__text__p2 {
   font-size: 1.75rem;
   margin-bottom: 1rem;
+  animation: fadeInUp 1.4s ease-in-out;
+}
+
+.btn-container {
+  margin-top: 1rem;
+  animation: fadeInUp 1.6s ease-in-out;
+}
+
+#socials-container {
+  margin-top: 1rem;
+  animation: fadeInUp 1.8s ease-in-out;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .title {
