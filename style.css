@@ -617,31 +617,37 @@ footer p {
   padding: 0;
   margin: 0;
 }
-
 .nav-links li {
   position: relative;
-  transition: transform 0.3s ease, color 0.3s ease;
+  list-style: none;
 }
 
-.nav-links li:hover {
-  transform: scale(1.1);
-  color: #007bff;
+.nav-links li a {
+  text-decoration: none; /* Remove default underline */
+  color: black; /* Default text color */
+  position: relative;
+  padding: 5px 0; /* Add some padding for spacing */
+  transition: color 0.3s ease;
 }
 
-.nav-links li::after {
+.nav-links li a::before {
   content: "";
   position: absolute;
-  width: 100%;
+  bottom: 0;
+  left: 50%;
+  width: 0;
   height: 2px;
-  background: #007bff;
-  bottom: -4px;
-  left: 0;
-  transform: scaleX(0);
-  transition: transform 0.3s ease;
+  background-color: #007bff; /* Hover effect color */
+  transition: width 0.3s ease, left 0.3s ease;
 }
 
-.nav-links li:hover::after {
-  transform: scaleX(1);
+.nav-links li a:hover {
+  color: #007bff; /* Change text color on hover */
+}
+
+.nav-links li a:hover::before {
+  width: 100%; /* Expand background line */
+  left: 0; /* Center the line */
 }
 
 @keyframes fadeInUp {
